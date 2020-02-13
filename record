@@ -1,0 +1,7 @@
+#!/bin/bash
+
+read -p "Please enter the file name: " filename
+
+arecord -D plughw:1 -c1 -r 48000 -f S32_LE -t wav -V mono -v $filename
+
+
