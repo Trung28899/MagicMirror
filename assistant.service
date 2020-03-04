@@ -1,0 +1,16 @@
+
+[Unit]
+Description=Google Assistant
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=simple
+ExecStart=/bin/bash /home/pi/start_assistant.sh
+Restart=on-abort
+User=pi
+Group=pi
+
+[Install]
+WantedBy=multi-user.target
+
