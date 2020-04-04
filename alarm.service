@@ -1,14 +1,14 @@
 [Unit]
-Description=Google Assistant
+Description=Speaker volume
 Wants=network-online.target
 After=network-online.target
 
 [Service]
 Type=simple
-ExecStart=/bin/bash /home/pi/start_assistant.sh
+ExecStart=/bin/bash /home/pi/Firebase/SmartMirror/AlarmTrigger.sh
 Restart=on-abort
 User=pi
 Group=pi
 
 [Install]
-WantedBy=multi-user.target
+WantedBy=multi-user
