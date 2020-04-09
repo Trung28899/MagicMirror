@@ -1,0 +1,14 @@
+Here is four links to demo each functionality of the Smart Mirror project
+
+
+1. Monitor control: user can turn off or on the mirror via android application
+https://www.youtube.com/watch?v=ZOPPlrfTFBE&feature=youtu.be
+
+2. Google assistant: allows the user to interact with mirror via speech to speech
+https://www.youtube.com/watch?v=IHYpu05iCoo&feature=youtu.be
+
+3. Volume control: Allows the user to control volume
+https://www.youtube.com/watch?v=-aUasIx5p5Y&feature=youtu.be
+
+4.Alarm control: The user can set alarm via android application by specifying the time
+https://www.youtube.com/watch?v=sQ9b24vfaag&feature=youtu.be
